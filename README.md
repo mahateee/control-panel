@@ -7,3 +7,6 @@ Steps for this project:
 4.Connecting the database to the interface by creating a code by PHP.
 5.connect the page of the first task that controls the robot arm and the page that controls the base of the arm via a button on both pages.
 
+ ![image]( https://github.com/mahateee/control-panel/blob/main/2021-06-28%2018-07-32.gif)
+
+

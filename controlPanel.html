@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="controlPanel.css">
+</head>
+<body>
+        
+    <form action="control.php" method="POST" id="form1">
+        <div class="page">
+
+                <div class="one"></div>
+                <div class="parent">
+                                <div class="forward" >
+                                        <button type="submit" value="Forward" name="forward" >forward</button>
+                                </div>
+                                <div class="child">
+                                        <button type="submit" value = "left" name = "leftvalue"  >left</button> 
+                                        <button type="submit" value = "Stop" name = "stopvalue"  >stop</button>
+                                        <button type="submit" value="Right" name="rightvalue"  >right</button>
+                                </div> 
+                                <div class="backward">
+                                        <button type="submit" value="Backward" name="backward" >backward</button>
+                                </div>
+                    </div>
+                <div class="two">
+                        <div class="conn"> <a href="motor.html">motor controller</a></div>
+                </div>  
+        </div>
+    </form>
+    
+</body>
+</html>
